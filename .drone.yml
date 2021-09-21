@@ -11,6 +11,7 @@ steps:
   - echo Checking if I am anonymous or any operations
   - cat /etc/*-release
   - whoami
+  - pwd
 
 - name: 2_Build_The_Code
   image: alpine
